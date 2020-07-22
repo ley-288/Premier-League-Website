@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" type="text/css" rel="stylesheet">
+            <title>Live Table</title>
+        <style type="text/css">
+        .container{
+            background-image: url(ch5.jpg);
+            width:1424px;
+            height:2010px;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="nav"><a href='#'></a>
+        </div>
+        <nav>
+            <img src="img14.jpg" style='height: 55px; width:120px;' id='logo'>
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='teams.html'>Teams</a></li>
+                <li><a href='livescores.html'>Live Scores</a></li>
+                <li><a href='livetable.html'>Live Table</a></li>
+                <li><a href='topscorers.html'>Top Scorers</a></li>
+                <li><a href='history.html'>History</a></li>
+            </ul>
+        </nav>
+        <div class='img' style='background-color: #04f5ff;'>
+            <a href= "https://www.arsenal.com/"><img src="./teams/arsenal.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.avfc.co.uk/"><img src="./teams/astonvilla.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.afcb.co.uk/"><img src="./teams/bournemouth.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.brightonandhovealbion.com/"><img src="./teams/brighton.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.burnleyfootballclub.com/"><img src="./teams/burnley.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.chelseafc.com/en"><img src="./teams/chelsea.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.cpfc.co.uk/"><img src="./teams/crystal.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "http://www.evertonfc.com/"><img src="./teams/everton.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "http://www.lcfc.com/"><img src="./teams/leicester.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "http://www.liverpoolfc.com/"><img src="./teams/liverpool.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "http://www.mancity.com/"><img src="./teams/mancity.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "http://www.manutd.com/"><img src="./teams/manutd.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.nufc.co.uk/"><img src="./teams/newcastle.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.canaries.co.uk/"><img src="./teams/norwich.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.sufc.co.uk/"><img src="./teams/sheffield.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://southamptonfc.com/"><img src="./teams/southampton.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.tottenhamhotspur.com/"><img src="./teams/spurs.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.watfordfc.com/"><img src="./teams/watford.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.whufc.com/"><img src="./teams/westham.svg" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+            <a href= "https://www.wolves.co.uk/"><img src="./teams/wolves.png" width="20%" style="border:0px; margin:5px;float:center;width:50px;height;50px:" ></a>
+        </div>
+        <div class="container">
+            <div class="content">
+                <div id='box1'>
+                    <div class="wrapper">
+                        <img class="big-img" src="background.png" />
+                        <a href= "https://www.premierleague.com/home"><img class="small-img" src="img12.png" /></a>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id='box11' style='height:1200px; margin-top: 350px;'><img src="img13.png" width="20%" style="border:0px; margin:0px;float:center;width:180px;" >
+            <table style='width:1100px; margin-left:0px;margin-top: 50px;'>
+                <tr>
+                    <th style='text-align: left;width: 10px;'>Position</th>
+                    <th style='text-align: left;width: 40px;'>TEAM</th>
+                    <th style='text-align: left;width: 10px;'>Played</th>
+                    <th style='text-align: left;width: 10px;'>Won</th>
+                    <th style='text-align: left;width: 10px;'>Drawn</th>
+                    <th style='text-align: left;width: 10px;'>Lost</th>
+                    <th style='text-align: left;width: 10px;'>GF*</th>
+                    <th style='text-align: left;width: 10px;'>GA*</th>
+                    <th style='text-align: left;width: 10px;'>GD*</th>
+                    <th style='text-align: left;width: 10px;'>PTS*</th>
+                    <th style='text-align: left;width: 80px;'>FORM</th>
+                    <th style='text-align: left;width: 10px;'>Next</th>
+                </tr>
+                <tr>
+                    <td>1▷</td>
+                    <td>Liverpool</td>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>37</td>
+                    <td>14</td>
+                    <td>23</td>
+                    <td>43</td>
+                    <td>W W W W W</td>
+                    <td>WAT</td>
+                </tr>
+                <tr>
+                    <td>2▷</td>
+                    <td>Leicester City</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>35</td>
+                    <td>9</td>
+                    <td>26</td>
+                    <td>35</td>
+                    <td>W W W W W</td>
+                    <td>NOR</td>
+                </tr>
+                <tr>
+                    <td>3▷</td>
+                    <td>Man City</td>
+                    <td>15</td>
+                    <td>10</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>43</td>
+                    <td>17</td>
+                    <td>26</td>
+                    <td>32</td>
+                    <td>W L W D W</td>
+                    <td>ARS</td>
+                </tr>
+                <tr>
+                    <td>4▷</td>
+                    <td>Chelsea</td>
+                    <td>15</td>
+                    <td>9</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>9</td>
+                    <td>30</td>
+                    <td>21</td>
+                    <td>29</td>
+                    <td>W W L L W</td>
+                    <td>BOU</td>
+                </tr>
+                <tr>
+                    <td>5△</td>
+                    <td>Wolves</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>21</td>
+                    <td>17</td>
+                    <td>4</td>
+                    <td>23</td>
+                    <td>D W W D W</td>
+                    <td>SPU</td>
+                </tr>
+                <tr>
+                    <td>6△</td>
+                    <td>Man Utd</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>23</td>
+                    <td>18</td>
+                    <td>5</td>
+                    <td>21</td>
+                    <td>D W W D W</td>
+                    <td>EVE</td>
+                </tr>
+                <tr>
+                    <td>7△</td>
+                    <td>Crystal Palace</td>
+                    <td>15</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>-4</td>
+                    <td>21</td>
+                    <td>L W D D W</td>
+                    <td>BRI</td>
+                </tr>
+                <tr>
+                    <td>8▽</td>
+                    <td>Spurs</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>25</td>
+                    <td>23</td>
+                    <td>2</td>
+                    <td>20</td>
+                    <td>L L L W W</td>
+                    <td>WOL</td>
+                </tr>
+                <tr>
+                    <td>9▽</td>
+                    <td>Sheffield Utd</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>17</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>19</td>
+                    <td>D D W W L</td>
+                    <td>ASV</td>
+                </tr>
+                <tr>
+                    <td>10▽</td>
+                    <td>Arsenal</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>4</td>
+                    <td>21</td>
+                    <td>23</td>
+                    <td>-2</td>
+                    <td>19</td>
+                    <td>W D D D L</td>
+                    <td>MCY</td>
+                </tr>
+                <tr>
+                    <td>11△</td>
+                    <td>Newcastle Utd</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>15</td>
+                    <td>22</td>
+                    <td>-7</td>
+                    <td>19</td>
+                    <td>D L D D L</td>
+                    <td>BUR</td>
+                </tr>
+                <tr>
+                    <td>12▽</td>
+                    <td>Burnley</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>21</td>
+                    <td>24</td>
+                    <td>-3</td>
+                    <td>18</td>
+                    <td>W W L D W</td>
+                    <td>NEW</td>
+                </tr>
+                <tr>
+                    <td>13△</td>
+                    <td>Brighton</td>
+                    <td>15</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>18</td>
+                    <td>22</td>
+                    <td>-4</td>
+                    <td>18</td>
+                    <td>L W W L L</td>
+                    <td>PAL</td>
+                </tr>
+                <tr>
+                    <td>14▽</td>
+                    <td>Bournemouth</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>18</td>
+                    <td>21</td>
+                    <td>-3</td>
+                    <td>16</td>
+                    <td>W L L L W</td>
+                    <td>CHE</td>
+                </tr>
+                <tr>
+                    <td>15▽</td>
+                    <td>West Ham Utd</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>17</td>
+                    <td>25</td>
+                    <td>-8</td>
+                    <td>16</td>
+                    <td>W L L L L</td>
+                    <td>SOU</td>
+                </tr>
+                <tr>
+                    <td>16▽</td>
+                    <td>Aston Villa</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>22</td>
+                    <td>24</td>
+                    <td>-2</td>
+                    <td>15</td>
+                    <td>L L L W L</td>
+                    <td>SHE</td>
+                </tr>
+                <tr>
+                    <td>17△</td>
+                    <td>Southampton</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>17</td>
+                    <td>33</td>
+                    <td>-16</td>
+                    <td>15</td>
+                    <td>L L W D L</td>
+                    <td>WHU</td>
+                </tr>
+                <tr>
+                    <td>18▽</td>
+                    <td>Everton</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td>16</td>
+                    <td>27</td>
+                    <td>-11</td>
+                    <td>14</td>
+                    <td>L L D W W</td>
+                    <td>MUN</td>
+                </tr>
+                <tr>
+                    <td>19▷</td>
+                    <td>Norwich City</td>
+                    <td>15</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>10</td>
+                    <td>16</td>
+                    <td>32</td>
+                    <td>-16</td>
+                    <td>11</td>
+                    <td>D W L L L</td>
+                    <td>LEI</td>
+                </tr>
+                <tr>
+                    <td>20▷</td>
+                    <td>Watford</td>
+                    <td>15</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>30</td>
+                    <td>-21</td>
+                    <td>8</td>
+                    <td>L L W D L</td>
+                    <td>LIV</td>
+                </tr>
+            </table>
+        </div>
+            
+        
+        <div id='box4'style='margin-top:2010px;'>
+        </div>
+        <div id='box5'style='margin-top:2060px;'>
+        </div>
+        <div id='box6' style='margin-top:2080px'>
+        </div>
+
+        <div id='box7' style='margin-top:2100px;'>
+            <div class="img">
+                <h2>OFFICIAL PARTNERS OF THE PREMIER LEAGUE:</h2>
+
+                <a href= "https://www.ea.com/games/fifa/fifa-21"><img src="sponsor10.png" width="20%" style="border:0px; margin:5px;float:center;width:150px;" ></a>
+
+                <a href= "https://www.ea.com/sports"><img src="sponsor1.png" width="10%" style="border:0px; margin:5px; float:center;width:80px;"></a>
+
+                <a href= "https://www.barclays.co.uk/"><img src="sponsor2.png" width="30%" style="border:0px; margin:5px;float:center;width:150px;"></a>
+
+                <a href= "https://www.budweiser.com/"><img src="sponsor3.png" width="20%" style="border:0px; margin:5px;float:center;width:150px;" ></a>
+
+                <a href= "https://www.cadbury.co.uk/"><img src="sponsor4.jpeg" width="20%" style="border:0px; margin:5px;float:center;width:120px;"></a>
+
+                <a href= "https://www.coca-cola.com/"><img src="sponsor5.png" width="20%" style="border:0px; margin:5px;float:center;width:150px;" ></a>
+
+                <a href= "https://www.nike.com/"><img src="sponsor6.png" width="20%" style="border:0px; margin:5px;float:center;width:130px;" ></a>
+
+                <a href= "https://www.tagheuer.com/"><img src="sponsor7.png" width="20%" style="border:0px; margin:5px;float:center;width:70px;" ></a>
+
+                <a href= "https://www.paninigroup.com/"><img src="sponsor8.png" width="20%" style="border:0px; margin:5px;float:center;width:120px;" ></a>
+
+                <a href= "https://www.uefa.com/uefachampionsleague/"><img src="sponsor9.jpg" width="20%" style="border:0px; margin:5px;float:center;width:100px;" ></a>
+                
+            </div>
+        </div> 
+        
+        <div id='box8' style='margin-top:2360px;'>
+            <h3 style='transform: rotate(180deg);'>Visit the official Premier League website</h3>
+            <h3 style='transform: rotate(180deg);'>ALL RIGHTS RESERVED</h3>
+            <h3 style='transform: rotate(180deg);'>ALL SPONSORS AND LOGOS APPEAR AS COPYRIGHTED BY THEIR OWNERS</h3>
+
+                <a href= "https://www.premierleague.com/home"><img src="img13.png" width="20%" style="border:0px; margin:0px;float:center;width:180px;transform: rotate(180deg);" ></a>
+
+        </div>
+    </body>
+</html>

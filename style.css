@@ -1,0 +1,524 @@
+.body{
+    font-family: 'CustomFont',PL;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:1424px;
+    height:1350px;
+    background: url(ch4.jpg); 
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: flex;
+    opacity: 0.;
+}
+
+.container:before{
+    content:"";
+    background: #3d195b;
+    width: 4000px;
+    opacity: 0.3;
+    transition: 3s ease;
+}
+
+.container:hover:before{
+    background: #00ff85;
+    opacity: 0.3;
+}
+
+.content{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.zoom {
+    padding: 50px;
+    background-color:transparent;
+    transition: transform .2s; /* Animation */
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+@font-face { font-family: PL; src: url('PL.TTF'); }
+header{
+    color: black;
+    font-size: 45px;
+    padding: 10px;
+    font-family: 'CustomFont', PL;
+    text-align:left;
+    float: left;
+}
+
+
+h1{
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    font-family: 'CustomFont', PL;
+    text-align:center;
+}
+
+h2{
+    color: black;
+    font-size: 20px;
+    font-family: 'CustomFont', PL;
+    text-align:center;
+}
+
+h3{
+    color: white;
+    font-size: 10px;
+    font-family: 'CustomFont', PL;
+    text-align:center;
+}
+h4{
+    float: left;
+    color: black;
+    font-size: 20px;
+    font-family: 'CustomFont', PL;
+    text-align: left;
+}
+h5{
+    float: left;
+    color: black;
+    font-size: 10px;
+    font-family: 'CustomFont', PL;
+    text-align: left;
+}
+
+h6{
+    float: left;
+    color: black;
+    font-size: 60px;
+    font-family: 'CustomFont', PL;
+    text-align: left;
+}
+.smaller { font-size:10px; }
+p{
+    float: left ;
+    color: black;
+    font-size: 20px;
+    font-family: 'CustomFont', PL;
+    text-align: left;
+}
+
+figcaption{
+
+    font-family: 'CustomFont',PL;
+}
+
+.boxed {
+    border: 1px solid #00ff85;
+    
+}
+div {
+    text-align: center;
+    } 
+    
+img {
+    vertical-align:middle;
+}
+
+p {
+    display:inline-block;
+    font-family:'CustomFont',PL;
+}
+span {
+    vertical-align:middle;
+}
+h4 {
+    display: inline-block
+}
+#box1{
+    align: center;
+    height: 200px;
+    width: 1200px;
+    padding:25px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 2px #00ff85;
+    border: none;
+    background:#3d195b;
+
+    text-align: center;
+}
+#box2{
+    float: left;
+    position: absolute;
+    background-image: linear-gradient(#3d195b, #9559ce);
+    height: 825px;
+    width: 400px;
+    left: 100px;
+    padding: 50px;
+    margin: 400px auto;
+    box-shadow: 0px 0px 10px 2px #00ff85;
+    border: none;
+    text-align: top;
+    color: white;
+}
+#box3{
+    float: right;
+    position: absolute;
+    height: 425px;
+    width: 400px;
+    right: 100px;
+    padding: 50px;
+    margin: 400px auto;
+    box-shadow: 0px 0px 10px 2px #00ff85;
+    border: none;
+    background-image: linear-gradient(#3d195b, #9559ce);
+    text-align: top;
+    color: white;
+}
+
+#box9{
+    float: right;
+    position: absolute;
+    height: 350px;
+    width: 400px;
+    right: 100px;
+    padding: 50px;
+    margin: 950px auto;
+    box-shadow: 0px 0px 10px 2px #00ff85;
+    border: none;
+    background-image: linear-gradient(#3d195b, #9559ce);
+    text-align: top;
+    color: white;
+}
+
+#box4{
+    float: bottom;
+    position: absolute;
+    height: 50px;
+    width: 1424px;
+    right: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 1350px auto;
+    border: 2px;
+    background:#04f5ff;
+    text-align: top;
+    color: white;
+}
+
+#box5{
+    float: bottom;
+    position: absolute;
+    height: 20px;
+    width: 1424px;
+    right: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 1400px auto;
+    border: 2px;
+    background:#3d195b;
+    text-align: top;
+    color: white;
+}
+#box6{
+    float: bottom;
+    position: absolute;
+    height: 20px;
+    width: 1424px;
+    right: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 1420px auto;
+    border: 2px;
+    background:#00ff85;
+    text-align: top;
+    color: white;
+}
+
+#box7{
+    float: bottom;
+    position: absolute;
+    height: 500px;
+    width: 1424px;
+    right: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 2340px auto;
+    border: 2px;
+    background:white;
+    text-align: top;
+    color: white;
+}
+
+#box10{
+    float: bottom;
+    position: absolute;
+    height: 900px;
+    width: 1424px;
+    right: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 1440px auto;
+    border: 2px;
+    background:#00ff85;
+    text-align: top;
+    color: white;
+}
+
+#box8{
+    float: bottom;
+    position: absolute;
+    height: 300px;
+    width: 1424px;
+    right: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 2600px auto;
+    border: 2px;
+    background: #e90052;
+    background-image: url('background.png');
+    transform: rotate(180deg); 
+    background-repeat: no-repeat;
+    background-size: 1424px ;
+    text-align: top;
+    color: white;
+}
+#box11{
+    float: center;
+    position: absolute;
+    height: 1820px;
+    width: 1100px;
+    left: 120px;
+    padding: 50px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 2px #00ff85;
+    border: none;
+    background-image: linear-gradient(#3d195b, #9559ce);
+    text-align: top;
+    color: white;
+}
+#box12{
+    float: center;
+    position: absolute;
+    height: 150px;
+    width: 550px;
+    left: 140px;
+    padding: 0px;
+    margin: 170px auto;
+    box-shadow: 0px 0px 10px 2px #e90052;
+    border: none;
+    background: white;
+    text-align: top;
+    color: white;
+}
+
+/* team boxes */
+#box13{
+    float: right;
+    position: absolute;
+    height: 900px;
+    width: 400px;
+    right: 70px;
+    padding: 50px;
+    margin: 650px auto;
+    box-shadow: 0px 0px 10px 2px #00ff85;
+    border: none;
+    background-image: linear-gradient(#3d195b, #9559ce);
+    text-align: top;
+    color: white;
+}
+
+#box14{
+    float: right;
+    position: absolute;
+    height: 150px;
+    width: 160px;
+    left: 800px;
+    top: 70px;
+    padding: 0px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 10px 2px transparent;
+    border: none;
+    background:transparent;
+    text-align: top;
+    color: white;
+}
+
+#box16{
+    float: right;
+    position: absolute;
+    height: 15px;
+    width: 400px;
+    right: 70px;
+    margin: 350px auto;
+    padding: 50px;
+    border: none;
+    background:#00ff85;
+    box-shadow: 0px 0px 10px 2px #04f5ff;
+    text-align: center;
+    color: white;
+}
+
+#box15{
+    float: right;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    right: 70px;
+    padding: 50px;
+    margin: 1675px auto;
+    box-shadow: 0px 0px 10px 2px #00ff85;
+    border: none;
+    background:#00ff85;
+    text-align: top;
+    color: white;
+}
+
+#box17{
+    float: right;
+    position: absolute;
+    height: 150px;
+    width: 490px;
+    right: 70px;
+    margin: 477.5px auto;
+    padding: 5px;
+    border: none;
+    background:transparent;
+    box-shadow: 0px 0px 10px 2px transparent;
+    text-align: center;
+    color: white;
+}
+
+
+#box18{
+    float: right;
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    right: 70px;
+    padding: 50px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 2px transparent;
+    border: none;
+    background:transparent;
+    text-align: top;
+    color: white;
+}
+
+/*top scorer*/
+
+#box20{
+    float: center;
+    position: absolute;
+    height: 150px;
+    width: 850px;
+    left: 140px;
+    padding: 0px;
+    margin-left: 0px auto;
+    box-shadow: 0px 0px 10px 2px #00ff85;
+    border: none;
+    background: white;
+    text-align: top;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    background: #00ff85;
+    overflow: auto;
+}
+
+#logo{
+    float: left;
+}
+ul { 
+    background: #00ff85; 
+    margin: 0 0 0 321px;
+    padding: 0;
+    list-style: none;
+}
+li { 
+    float: left;
+    color: white;  
+    background:#3d195b;  
+    list-style: none;  
+}  
+         
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: 'CustomFont', PL;
+    color: #04f5ff;
+    text-align: center;
+}
+nav a:hover{
+    background:#e90052;
+    transition:0.5s;
+    text-transform: uppercase;
+
+}
+.row{
+    float: fixed;
+    width: 1000px;
+    padding: 1px;
+}
+
+/*.img { overflow: hidden; width: 100% }
+
+.img-container {
+    padding-right: 30px;
+    width: 100%;
+    max-width: 100%;
+}*/
+
+table {
+    font-family: 'CustomFont', PL;
+    margin-left: -15px;
+    text-align: center;
+    text-indent: center;
+    border-collapse: collapse;
+    width: 430px;
+}
+
+th{
+    text-indent: 0px;
+    padding: 15px;
+    text-align: left;
+    background-color: #e90052;
+    color: white;
+}
+td{
+    text-align: center;
+    text-indent: 0px;
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+.wrapper{
+    display: inline-block;
+    position:relative;
+  }
+  .big-img{
+    width: 1250px;
+    height: 250px;
+    margin-top: -25px;
+    margin-left: -25px;
+    max-width: none;
+    border: none;
+  }
+  .small-img{
+    position:absolute;
+    right: 400px;
+    top: 0px;
+    width: 500px;
+    height: 200px;
+}
+
+.arsenal a:link{
+    toarsenal.html
+}
