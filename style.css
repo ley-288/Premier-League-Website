@@ -2,9 +2,10 @@
     font-family: 'CustomFont',PL;
     margin: 0;
     padding: 0;
-    overscroll-behavior-y: none;
-    height: 100%;
-    overflow: auto;
+    position: absolute;
+    height: 100%; 
+    overflow-y: scroll;
+    overflow-x:hidden;
 }
 
 .container{
