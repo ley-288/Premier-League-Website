@@ -47,8 +47,9 @@
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
-@font-face { font-family: PL; src: url('PL.TTF'); }
+@font-face { font-family: PL; src: url('./fonts/PL.ttf'); }
 header{
+
     color: black;
     font-size: 45px;
     padding: 10px;
