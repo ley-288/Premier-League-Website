@@ -1,3 +1,8 @@
+html { height: 100% }
+
+body {
+    border: 1px solid transparent;
+}
 .body{
     font-family: 'CustomFont',PL;
     margin: 0;
@@ -5,7 +10,7 @@
 }
 
 .container{
-    width:1424px;
+    width:1423px;
     height:1350px;
     background: url(ch4.jpg); 
     background-size: cover;
@@ -47,7 +52,7 @@
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
-@font-face { font-family: PL; src: url('./fonts/PL.ttf') format('truetype');}
+@font-face { font-family: PL; src: url('./fonts/PL.ttf') format('truetype'); }
 header{
 
     color: black;
@@ -165,32 +170,32 @@ h4 {
     color: white;
 }
 #box3{
-    float: right;
+    float: left;
     position: absolute;
+    background-image: linear-gradient(#3d195b, #9559ce);
     height: 425px;
     width: 400px;
-    right: 100px;
+    left: 840px;
     padding: 50px;
     margin: 400px auto;
     box-shadow: 0px 0px 10px 2px #00ff85;
     border: none;
-    background-image: linear-gradient(#3d195b, #9559ce);
-    text-align: top;
+    text-align: center;
     color: white;
 }
 
 #box9{
-    float: right;
+    float: left;
     position: absolute;
-    height: 350px;
+    background-image: linear-gradient(#3d195b, #9559ce);
+    height: 425px;
     width: 400px;
-    right: 100px;
+    left: 852.5px;
     padding: 50px;
     margin: 950px auto;
     box-shadow: 0px 0px 10px 2px #00ff85;
     border: none;
-    background-image: linear-gradient(#3d195b, #9559ce);
-    text-align: top;
+    text-align: center;
     color: white;
 }
 
@@ -321,7 +326,7 @@ h4 {
     position: absolute;
     height: 900px;
     width: 400px;
-    right: 70px;
+    left: 870px;
     padding: 50px;
     margin: 650px auto;
     box-shadow: 0px 0px 10px 2px #00ff85;
@@ -352,7 +357,7 @@ h4 {
     position: absolute;
     height: 15px;
     width: 400px;
-    right: 70px;
+    left: 870px;
     margin: 350px auto;
     padding: 50px;
     border: none;
@@ -367,7 +372,7 @@ h4 {
     position: absolute;
     height: 200px;
     width: 400px;
-    right: 70px;
+    left: 870px;
     padding: 50px;
     margin: 1675px auto;
     box-shadow: 0px 0px 10px 2px #00ff85;
@@ -382,7 +387,7 @@ h4 {
     position: absolute;
     height: 150px;
     width: 490px;
-    right: 70px;
+    left: 870px;
     margin: 477.5px auto;
     padding: 5px;
     border: none;
@@ -398,7 +403,7 @@ h4 {
     position: absolute;
     height: 175px;
     width: 175px;
-    right: 70px;
+    left: 1110px;
     padding: 50px;
     margin: 50px auto;
     box-shadow: 0px 0px 10px 2px transparent;
@@ -461,6 +466,8 @@ nav{
     width: 100%;
     background: #00ff85;
     overflow: auto;
+    max-width: 100%;    
+    min-width: 1425px;
 }
 
 #logo{
@@ -552,6 +559,3 @@ td{
     height: 200px;
 }
 
-.arsenal a:link{
-    toarsenal.html
-}
