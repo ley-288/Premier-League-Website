@@ -49,6 +49,7 @@
 
 @font-face { font-family: PL; src: url('./fonts/PL.ttf'); }
 header{
+    
     color: black;
     font-size: 45px;
     padding: 10px;
