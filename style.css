@@ -2,17 +2,10 @@
     font-family: 'CustomFont',PL;
     margin: 0;
     padding: 0;
-
-}
-html {
-    overflow: hidden;
-    height: 100%;
-}
-body {
     height: 100%;
     overflow: auto;
+    overscroll-behavior-x: none;
 }
-
 .container{
     width:1424px;
     height:1350px;
