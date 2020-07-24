@@ -2,8 +2,12 @@
     font-family: 'CustomFont',PL;
     margin: 0;
     padding: 0;
+}
+
+body{
     overscroll-behavior-x: none;
 }
+
 .container{
     width:1424px;
     height:1350px;
